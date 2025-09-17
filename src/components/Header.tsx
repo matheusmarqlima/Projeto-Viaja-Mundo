@@ -30,7 +30,7 @@ const Header = () => {
           <img src={menu} />
           <div className="hidden">
             <SearchIcon />
-            <button className="h-10 border border-slate-200 rounded-xl px-4 py-2 flex items-center gap-4 text-slate-950 text-sm font-semibold">
+            <button className="h-10 border border-slate-200 rounded-xl px-4 py-2 flex items-center gap-4 text-slate-950 text-sm font-semibold ">
               <PersonIcon />
               Login
             </button>

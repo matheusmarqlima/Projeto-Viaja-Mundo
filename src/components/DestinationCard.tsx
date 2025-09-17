@@ -4,7 +4,7 @@ import Star from "../assets/star.svg?react";
 
 const DestinationCard = () => {
   return (
-    <div>
+    <div className="py-[64px] border-t-yellow-300">
       <div>
         <img src={machuPicchu} alt="Machu Picchu" />
         <div>Aventura</div>

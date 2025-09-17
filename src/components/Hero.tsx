@@ -3,7 +3,7 @@ import SearchDestination from "./SearchDestination";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="flex relative py-[156px]">
       <div
         className={`absolute inset-0 bg-center bg-cover bg-no-repeat bg-[url(${background})]`}
         style={{ backgroundImage: `url(${background})` }}
