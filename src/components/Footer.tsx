@@ -15,7 +15,7 @@ const FooterText = ({ children }: PropsWithChildren) => {
 const Footer = () => {
   return (
     <footer className="bg-blue-50 m-4 mt-[-20px]">
-      <div className="max-w-6xl mx-auto py-10 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-slate-700">
+      <div className="max-w-6xl mx-auto py-10 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-slate-500">
         <div>
           <h2 className="text-sky-500 text-3xl font-bold mb-4 ">Viaja Mundo</h2>
           <FooterText>
@@ -53,7 +53,7 @@ const Footer = () => {
           <FooterText>Seguro Viagem</FooterText>
           <FooterText>Roteiros Personalizados</FooterText>
         </div>
-        <div className="sm:col-span-1 md:col-span-1 lg:col-span-1">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-1 text-slate-500">
           <Subtitle className="font-semibold text-black mb-[24px] flex ">Contato</Subtitle>
           <div className="flex gap-2 mb-2">
             <PhoneIcon className="w-4 h-4 text-sky-500" />
@@ -68,7 +68,7 @@ const Footer = () => {
             <FooterText>São Paulo, SP - Brasil</FooterText>
           </div>
         </div>
-        <div className="flex flex-col justify-center text-center">
+        <div className="flex flex-col justify-center text-center text-slate-500 sm:col-span-2 md:col-span-1 lg:col-span-1">
           <FooterText >
             © 2025 Viaja Mundo. Todos os direitos reservados.
           </FooterText>
