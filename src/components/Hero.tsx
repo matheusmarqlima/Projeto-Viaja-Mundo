@@ -12,8 +12,8 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-col relative z-10 px-4 text-center text-white gap-6">
-        <h1 className="text-5xl font-bold ">Descubra o Mundo</h1>
-        <p>
+        <h1 className="text-5xl font-bold">Descubra o Mundo</h1>
+        <p className="text-center">
           Explore destinos incríveis, crie memórias inesquecíveis e viva
           aventuras extraordinárias
         </p>
