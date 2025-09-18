@@ -14,31 +14,31 @@ const FooterText = ({ children }: PropsWithChildren) => {
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
+    <footer className="bg-blue-50 m-4 mt-[-20px]">
+      <div className="max-w-6xl mx-auto py-10 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-slate-700">
         <div>
-          <h2>Viaja Mundo</h2>
+          <h2 className="text-sky-500 text-3xl font-bold mb-4 ">Viaja Mundo</h2>
           <FooterText>
             Sua agência de viagens online para descobrir os melhores destinos do
             mundo.
           </FooterText>
-          <div>
-            <a href="#">
+          <div className="flex gap-4 mt-4  " >
+            <a href="#" className="bg-sky-200 text-white h-[40px] w-[40px]  rounded-[9999px] flex items-center justify-center">
               <FacebookIcon />
             </a>
-            <a href="#">
+            <a href="#" className="bg-sky-200 text-white h-[40px] w-[40px]  rounded-[9999px] flex items-center justify-center">
               <InstagramIcon />
             </a>
-            <a href="#">
+            <a href="#" className="bg-sky-200 text-white h-[40px] w-[40px]  rounded-[9999px] flex items-center justify-center">
               <TwitterIcon />
             </a>
-            <a href="#">
+            <a href="#" className="bg-sky-200 text-white h-[40px] w-[40px]  rounded-[9999px] flex items-center justify-center">
               <YouTubeIcon />
             </a>
           </div>
         </div>
-        <div>
-          <Subtitle>Destinos</Subtitle>
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-1">
+          <Subtitle className="font-semibold text-black mb-[20px] flex ">Destinos</Subtitle>
           <FooterText>Europa</FooterText>
           <FooterText>Ásia</FooterText>
           <FooterText>América do Sul</FooterText>
@@ -46,16 +46,16 @@ const Footer = () => {
           <FooterText>Oceania</FooterText>
         </div>
         <div>
-          <Subtitle>Serviços</Subtitle>
+          <Subtitle className="font-semibold text-black mb-[20px] flex ">Serviços</Subtitle>
           <FooterText>Pacotes de Viagem</FooterText>
           <FooterText>Hotéis</FooterText>
           <FooterText>Passagens Aéreas</FooterText>
           <FooterText>Seguro Viagem</FooterText>
           <FooterText>Roteiros Personalizados</FooterText>
         </div>
-        <div>
-          <Subtitle>Contato</Subtitle>
-          <div>
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-1">
+          <Subtitle className="font-semibold text-black mb-[24px] flex ">Contato</Subtitle>
+          <div className="flex gap-2 mb-2">
             <PhoneIcon className="w-4 h-4 text-sky-500" />
             <FooterText>(11) 99999-9999</FooterText>
           </div>
@@ -63,13 +63,13 @@ const Footer = () => {
             <MailIcon className="w-4 h-4 text-sky-500" />
             <FooterText>contato@viajamundo.com</FooterText>
           </div>
-          <div>
+          <div className="flex gap-2 mt-2">
             <MapIcon className="w-4 h-4 text-sky-500" />
             <FooterText>São Paulo, SP - Brasil</FooterText>
           </div>
         </div>
-        <div>
-          <FooterText>
+        <div className="flex flex-col justify-center text-center">
+          <FooterText >
             © 2025 Viaja Mundo. Todos os direitos reservados.
           </FooterText>
         </div>
