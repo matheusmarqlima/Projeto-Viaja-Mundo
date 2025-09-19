@@ -5,12 +5,12 @@ import PersonIcon from "../assets/person.svg?react";
 
 const Header = () => {
   return (
-    <header>
+    <header className="">
       <div className="h-16 px-4 flex justify-between items-center">
         <h1>
           <img src={logo} alt="Viaja Mundo" />
         </h1>
-        <nav className="hidden text-slate-950">
+        <nav className="hidden md:grid text-slate-950">
           <ul className="flex gap-8">
             <li>
               <a href="#">Destinos</a>
@@ -27,8 +27,8 @@ const Header = () => {
           </ul>
         </nav>
         <div>
-          <img src={menu} />
-          <div className="hidden">
+          <img src={menu} className="md:hidden" />
+          <div className="hidden md:flex items-center gap-4">
             <SearchIcon />
             <button className="h-10 border border-slate-200 rounded-xl px-4 py-2 flex items-center gap-4 text-slate-950 text-sm font-semibold ">
               <PersonIcon />
