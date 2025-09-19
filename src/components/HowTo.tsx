@@ -15,7 +15,7 @@ const HowTo = () => {
         Guias essenciais para planejar sua viagem perfeita do início ao fim
       </p>
 
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-6 md:grid md:grid-cols-2 md:gap-6">
         <div className="w-full max-w-lg border border-gray-200 rounded-[20px] p-8">
           <HowToCard icon={<AirplaneIcon />} title="Escolhendo seu Destino">
             Dicas para selecionar o destino perfeito baseado no seu
