@@ -4,7 +4,7 @@ import Star from "../assets/star.svg?react";
 
 const DestinationCard = () => {
   return (
-    <div className="w-[396px] rounded-[12px] shadow-xl relative ">
+    <div className="w-[396px] rounded-[12px] shadow-xl relative md:w-auto ">
       <div className="">
         <img src={machuPicchu} alt="Machu Picchu" className="rounded-t-2xl relative"/>
         <div className="absolute top-2 left-4 bg-amber-500 rounded-xl py-[3px] px-[11px]">Aventura</div>

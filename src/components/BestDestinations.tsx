@@ -5,7 +5,7 @@ const BestDestinations = () => {
     <section className="py-[64px] flex flex-col items-center justify-center ">
       <h2 className="text-4xl font-bold text-center text-slate-950 mb-4">Melhores Destinos</h2>
       <p className="text-center text-slate-500 py-[16px] px-[8px]">Explore os destinos mais procurados pelos viajantes do mundo todo</p>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 md:grid md:grid-cols-2 md:gap-6 mt-8 px-4">
         <DestinationCard />
         <DestinationCard />
         <DestinationCard />
