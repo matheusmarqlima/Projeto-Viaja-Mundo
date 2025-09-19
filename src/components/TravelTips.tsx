@@ -6,7 +6,7 @@ import TipCard from "./TipCard";
 
 const TravelTips = () => {
   return (
-    <div className="p-4 sm:p-8 bg-white">
+    <div className="p-4 sm:p-8 bg-white md:py-16">
       <section className="bg-blue-50 max-w-4xl mx-auto py-12 px-4 sm:px-8">
         <h2 className="text-4xl font-bold text-center text-slate-950 mb-4">
           Dicas de Viagem
@@ -15,7 +15,7 @@ const TravelTips = () => {
           Conselhos práticos de viajantes experientes para tornar sua jornada
           ainda melhor
         </p>
-        <div className="max-w-lg mx-auto flex flex-col gap-6">
+        <div className="max-w-lg mx-auto flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-6 md:max-w-none">
           <TipCard icon={<BulbIcon />} title="Dica de Ouro">
             Sempre faça uma cópia digital de seus documentos e guarde na nuvem
             para emergências.
