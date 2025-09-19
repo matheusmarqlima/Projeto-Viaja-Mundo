@@ -5,7 +5,7 @@ import InputText from "./InputText";
 
 const Subscribe = () => {
   return (
-    <section className="flex flex-col items-center text-center gap-6 py-20 px-4 bg-blue-50 m-4 mt-[-20px]">
+    <section className="flex flex-col items-center text-center gap-6 py-20 px-4 bg-blue-50 m-4 mt-[-20px] md:mt-[-70px] md:m-8">
       <div className="bg-white rounded-[12px] border border-slate-200 p-9 pt-18">
         <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto -mt-8 mb-4">
           <MailIcon />
