@@ -7,15 +7,15 @@ import HowToCard from "./HowToCard";
 
 const HowTo = () => {
   return (
-    <section className="mx-4 my-8 md:my-16">
-      <h2 className="text-4xl font-bold text-center text-slate-950 mb-4">
+    <section className="mx-4 my-8 md:my-16 lg:grid lg:gap-2 lg:mx-16 ">
+      <h2 className="text-4xl font-bold text-center text-slate-950 mb-4"> 
         Como Viajar
       </h2>
       <p className="text-center text-slate-500 px-2 max-w-xl mx-auto mb-12">
         Guias essenciais para planejar sua viagem perfeita do início ao fim
       </p>
 
-      <div className="flex flex-col items-center gap-6 md:grid md:grid-cols-2 md:gap-6">
+      <div className="flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-4 ">
         <div className="w-full max-w-lg border border-gray-200 rounded-[20px] p-8">
           <HowToCard icon={<AirplaneIcon />} title="Escolhendo seu Destino">
             Dicas para selecionar o destino perfeito baseado no seu
