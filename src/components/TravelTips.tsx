@@ -7,7 +7,7 @@ import TipCard from "./TipCard";
 const TravelTips = () => {
   return (
     <div className="bg-white md:py-16">
-      <section className="bg-blue-50 py-12 lg:mx-[32px]">
+      <section className="bg-blue-50 py-12 lg:mx-[32px] md:mx-[32px] ">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <h2 className="text-4xl font-bold text-center text-slate-950 mb-4">
             Dicas de Viagem
