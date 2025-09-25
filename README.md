@@ -1,69 +1,60 @@
-# React + TypeScript + Vite
+# ✈️ Viaja Mundo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao Viaja Mundo, uma aplicação web criada para ser o seu assistente pessoal no planejamento da viagem dos sonhos! 🗺️
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como parte de um trabalho acadêmico, com foco em criar uma interface limpa, rápida e responsiva, utilizando tecnologias modernas de front-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### ✨ Funcionalidades Principais
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O site guia o usuário através das etapas mais importantes do planejamento:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* 📍 **Escolhendo seu Destino:** Dicas para encontrar o lugar perfeito.
+* 📅 **Planejando sua Viagem:** Ajuda para organizar roteiros e reservas.
+* 💰 **Orçamento de Viagem:** Conselhos para economizar sem abrir mão do conforto.
+* 🛡️ **Segurança e Documentos:** Informações essenciais para uma viagem tranquila.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🛠️ Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Este projeto foi construído com as seguintes ferramentas:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* **React:** Para criar uma interface de usuário reativa e componentizada.
+* **Vite:** Para um ambiente de desenvolvimento e build incrivelmente rápido.
+* **Tailwind CSS:** Para uma estilização moderna, ágil e totalmente responsiva.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### 🚀 Rodando o Projeto Localmente
+
+Quer ver o projeto em ação na sua máquina? É fácil!
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/matheusmarqlima/Projeto-Viaja-Mundo.git](https://github.com/matheusmarqlima/Projeto-Viaja-Mundo.git)
+    ```
+
+2.  **Entre na pasta do projeto:**
+    ```bash
+    cd Projeto-Viaja-Mundo
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+Pronto! Agora é só abrir o seu navegador no endereço `http://localhost:5173` (ou na porta que o Vite indicar). 🎉
+
+---
+
+### 🙏 Agradecimentos
+
+Gostaria de deixar um agradecimento especial ao meu professor **Felipe Cavalcante Vilela Oliveira**, pela orientação, pelos desafios propostos e por todo o conhecimento compartilhado que tornaram este projeto possível. Muito obrigado!
